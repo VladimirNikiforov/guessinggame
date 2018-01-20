@@ -3,10 +3,12 @@
 ## Task was given at Coursera.org at course [The Unix Workbench](https://www.coursera.org/learn/unix)
 
 1. The date and time at which make was run:
-2018-01-20 11:13:22
+2018-01-20 11:22:37
 
 2. The number of lines of code contained in guessinggame.sh is:
 28
+
+### The decription of task:
 
 #### The guessinggame.sh program have the following behavior:
 - When the program starts the user should be asked how many files are in the current directory, and then the user should be prompted for a guess.
@@ -14,8 +16,8 @@
 - If the user's guess is correct then they should be congratulated and the program should end.
 - The program should not end until the user has entered the correct number of files in the current directory.
 - The program should be able to be run by entering bash guessinggame.sh into the console.
-- The program should contain at least one function, one loop, and one if statement.
-- The program should be more than 20 lines of code but less than 50 lines of code.
+- The program should contain at least **one function**, **one loop**, and **one if statement**.
+- The program should be *more than 20 lines of code but less than 50 lines of code*.
 
 #### The makefile produce the README.md which should contain the following information:
 1. The title of the project.
