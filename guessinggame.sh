@@ -1,7 +1,12 @@
 #!/usr/bin/env bash
 # File: guessinggame.sh
 
-count=$(find . -maxdepth 1 -type f|wc -l)
+function getthecount {
+  cnt=$(find . -maxdepth 1 -type f|wc -l)
+  echo $cnt
+}
+
+count=$(getthecount)
 echo "Hello! Nice to meet you at my game! =)"
 echo "Guess the number of files in my current directory, please"
 read num
